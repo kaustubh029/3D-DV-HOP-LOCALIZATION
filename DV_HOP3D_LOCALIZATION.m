@@ -123,7 +123,7 @@ for trial = 1:maxTrial
     error(trial,1) = sum(coordError(1,:))/(UNAmount * Range);
 
     if isnan(error(trial,1))
-        error(trail,1) = 0;
+        error(trial,1) = 0;
         count = count+1;
     end
 
